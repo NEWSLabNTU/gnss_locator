@@ -83,12 +83,12 @@ class GnssLocator(Node):
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
     def gnss_listener_callback(self, msg):
-        self.get_logger().info("gnss")
+        # self.get_logger().info("gnss")
         self.gnss_msg = msg
         self.update_output()
 
     def imu_listener_callback(self, msg):
-        self.get_logger().info("imu")
+        # self.get_logger().info("imu")
         self.imu_msg = msg
         self.update_output()
 
