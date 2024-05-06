@@ -1,0 +1,11 @@
+# editor
+*~
+.*~
+*.swp
+*.swo
+\#*#
+
+# python
+__pycache__/
+*.pyc
+*.pyo
